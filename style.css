@@ -1,35 +1,49 @@
 body {
   font-size: 100%;
   font-family: "Roboto", sans-serif;
-  background-color: #768c92;
+  color: #877154;
+  background-color: #192123;
   margin-left: 7.4vw;
   margin-right: 7.4vw;
 }
 
 .title {
-    width: 26rem;
-    margin: 9rem;
+  /* 🛑 this needs to be modified to be 
+    adequated for different screen sizes */
+  width: 30.6vw;
+  margin: 22.33vh 0 0 12vw;
 }
 
 .title p {
-    font-size: 2rem;
-    margin: 0;
+  font-size: 1.8rem;
+  margin: 1rem 0 0;
 }
 
 #hello {
-    display: inline-block;
-    font-size: 2.5rem;
+  display: block;
+  font-size: 2.5rem;
 }
 
 #present {
-    display: inline-block;
-    font-size: 4.5rem;
-    line-height: 6rem;
+  display: block;
+  font-size: 4.5rem;
+  line-height: 6rem;
+  letter-spacing: .132rem;
 }
 
 #name {
-    font-weight: bold;
-    font-size: 8.35rem;
-    line-height: 9rem;
-    letter-spacing: 0.7rem;
+  font-family: "Shrikhand", cursive;
+  font-weight: bold;
+  font-size: 8.35rem;
+  line-height: 8.4rem;
+}
+
+.paragraph {
+  width: 25.73vw;
+  margin: 40vh 12vw 19vh 48.6vw;
+}
+
+.paragraph p {
+  font-size: 1.6rem;
+  text-align: center;
 }
